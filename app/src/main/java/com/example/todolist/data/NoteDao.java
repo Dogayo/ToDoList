@@ -12,6 +12,7 @@ import com.example.todolist.model.Note;
 
 import java.util.List;
 
+
 @Dao
 public interface NoteDao {
     @Query("SELECT * FROM note")

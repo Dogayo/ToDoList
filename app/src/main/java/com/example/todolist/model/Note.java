@@ -62,6 +62,7 @@ public class Note implements Parcelable {
         return Objects.hash(id, text, timestamp, done);
     }
 
+
     @Override
     public int describeContents() {
         return 0;
